@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import Products from "./Components/Products";
 import Section from "./Components/Section";
 import Trading from "./Components/Trading";
+import TopCatergories from "./Components/TopCatergories";
+import NewsLetter from "./Components/NewsLetter";
 
 
 const Page = () => {
@@ -16,6 +18,8 @@ const Page = () => {
       <Products></Products>
       <Section></Section>
       <Trading></Trading>
+      <TopCatergories/>
+      <NewsLetter/>
       </div>
   );
 };
