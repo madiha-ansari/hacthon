@@ -26,7 +26,7 @@ const Logo = () => {
 
           <nav>
             <ul className="flex gap-8 items-center">
-              <li><Link href="#" className="text-pink-500 hover:text-pink-500 flex items-center  ${myFont.className}"
+              <li><Link href="http://localhost:3000/" className="text-pink-500 hover:text-pink-500 flex items-center  ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
                   fontWeight: "400",
