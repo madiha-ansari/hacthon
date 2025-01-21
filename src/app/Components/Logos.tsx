@@ -26,7 +26,7 @@ const Logo = () => {
 
           <nav>
             <ul className="flex gap-8 items-center">
-              <li><Link href="http://localhost:3000/" className="text-pink-500 hover:text-pink-500 flex items-center  ${myFont.className}"
+              <li><Link href="/home" className="text-pink-500 hover:text-pink-500 flex items-center  ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
                   fontWeight: "400",
@@ -45,7 +45,7 @@ const Logo = () => {
                   }}>  About </Link>
               </li>
 
-              <li> <Link href="#"
+              <li> <Link href="/products"
                 className="text-gray-800 hover:text-pink-500  ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
@@ -54,7 +54,7 @@ const Logo = () => {
                 }}>Products
               </Link></li>
 
-              <li><Link href="#"
+              <li><Link href="/blog"
                 className="text-gray-800 hover:text-pink-500  ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
@@ -63,7 +63,7 @@ const Logo = () => {
                 }}>Blog
               </Link></li>
 
-              <li><Link href="#"
+              <li><Link href="/shop"
                 className="text-gray-800 hover:text-pink-500  ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
@@ -71,7 +71,7 @@ const Logo = () => {
                   fontSize: "16px",
                 }}> Shop</Link></li>
 
-              <li><Link href="#"
+              <li><Link href="/contact"
                 className="text-gray-800 hover:text-pink-500 ${myFont.className}"
                 style={{
                   fontFamily: "Lato, sans-serif",
@@ -80,7 +80,6 @@ const Logo = () => {
                   width: "57px"
                 }}>Contact
               </Link></li>
-
 
             </ul>
           </nav>
