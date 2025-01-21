@@ -1,9 +1,15 @@
 import React from 'react'
+import Nafbar from "../Components/Nafbar";
+import Logoess from '../Components/Logoess';
+import BlogPage from '../Components/BlogPage';
 
 const page = () => {
   return (
     <div>
-    <h1>i am shop block</h1>
+    <Nafbar></Nafbar>
+    <Logoess></Logoess>
+    <BlogPage></BlogPage>
+
     </div>
   )
 }
