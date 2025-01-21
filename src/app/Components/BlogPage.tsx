@@ -22,6 +22,13 @@ const BlogPage = () => {
                 </div>
             </div>
             {/* first side completed  */}
+            {/* section two has been started */}
+
+
+
+
+
+
 
 
 
