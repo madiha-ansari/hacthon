@@ -4,7 +4,6 @@ import Image from 'next/image'
 const BlogPage = () => {
     return (
         <div>
-
             {/* first side started */}
             <div className='bg-[#F6F5FF] py-10 px-6 md:py-[140px] md:px-[200px]'>
                 <h1 className='font-JosefinSans text-[24px] text-[#101750] font-semibold md:text-[29px] text-3xl'>
@@ -191,13 +190,24 @@ const BlogPage = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
+            {/* third part started */}
+            <div className='py-[80px] px-[580px]'>
+                <Image
+                    src="/imgesss.png"
+                    alt="Phone Icon"
+                    width={904}
+                    height={93}
+                    className="max-w-full h-auto"
+                />
+            </div>
+            <div> <Image
+                src="/footer.png"
+                alt="Phone Icon"
+                width={2120}
+                height={532}
+                className="max-w-full h-auto"
+            />
+            </div>
         </div>
     )
 }
