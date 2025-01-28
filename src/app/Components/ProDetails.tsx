@@ -161,11 +161,6 @@ const ProDetails = () => {
             </div>
             {/* third part has been end */}
 
-
-
-
-
-
 {/* --------------------------------------------------- */}
             {/* four part started */}
             <div className="w-full min-h-screen py-[120px] px-4 md:px-[120px] lg:px-[480px]">
