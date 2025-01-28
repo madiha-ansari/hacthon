@@ -25,10 +25,9 @@ const BlogPage = () => {
             {/* first side completed  */}
 
             {/* section two has been started */}
-
-            <div className=' bg-slate-500 h-[3000px] w-full flex  gap-6 py-[90px] px-[280px]'>
+            <div className='h-[2400px] w-full flex  gap-6 py-[90px] px-[380px]'>
                 {/* img */}
-                <div className='w-[870px] h-[2153px] bg-blue-400'>
+                <div className='w-[870px] h-[2353px]'>
                     <div>
                         <Image
                             src="/bruce-mars-FWVMhUa_wbY-unsplash 2.svg"
@@ -37,7 +36,6 @@ const BlogPage = () => {
                             height={453}
                             className="max-w-full h-auto"
                         />
-
                     </div>
                     <div className='py-[20px]'>
                         <Image
@@ -88,7 +86,6 @@ const BlogPage = () => {
                             height={453}
                             className="max-w-full h-auto"
                         />
-
                     </div>
                     <div className='py-[20px]'>
                         <Image
@@ -104,15 +101,17 @@ const BlogPage = () => {
                         <p className='w-[852px] h-[49px] py-[20px] text-[#8A8FB9]' style={{ fontSize: "16px", lineHeight: "25px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id at.</p>
                         <p className="text-black py-[30px] w-[95px] h-[28px]">Read More ....</p>
                     </div>
-
-
-
-
-
+                    <div className='px-[240px] py-[60px]'> <Image
+                        src="/Group 219.png"
+                        alt="Phone Icon"
+                        width={236}
+                        height={24}
+                        className="max-w-full h-auto"
+                    /></div>
 
                 </div>
                 {/* form */}
-                <div className='w-[470px] h-[1253px] bg-pink-400'>
+                <div className='w-[470px] h-[1553px]'>
 
                     <div>
                         <Image
@@ -176,20 +175,22 @@ const BlogPage = () => {
                             height={78}
                             className="max-w-full h-auto"
                         />
-                        {/* c:\Users\wajiz.pk\Downloads\Group 244.png */}
                     </div>
 
+                    <div>
+                        <h1 className='text-[24px] text-black'>Tags</h1>
+                        <br />
+                        <Image
+                            src="/Group 229.png"
+                            alt="Phone Icon"
+                            width={228}
+                            height={64}
+                            className="max-w-full h-auto"
+                        />
 
-
+                    </div>
                 </div>
-
-
-
-
-
             </div>
-
-
 
 
 
