@@ -1,9 +1,15 @@
 import React from 'react'
+import Nafbar from '../Components/Nafbar'
+import ContactNaf from '../Components/ContactNaf'
+import Contact from '../Components/Contact'
 
 const page = () => {
   return (
     <div>
-    <h1>i am shop contact</h1>
+      <Nafbar></Nafbar>
+      <ContactNaf></ContactNaf>
+      <Contact></Contact>
+
     </div>
   )
 }
